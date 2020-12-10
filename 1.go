@@ -15,8 +15,3 @@ func main() {
 	log.Fatal(http.ListenAndServe("127.0.0.1:8093", nil))
 }
 
-//for start
-//go run 1.go
-
-//for build
-//go build 1.go
