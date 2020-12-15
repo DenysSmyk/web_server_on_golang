@@ -1,6 +1,9 @@
 # web_server_on_golang
-For start using:
-`go run 1.go`
+For clone golang app: `git clone https://github.com/DenysSmyk/web_server_on_golang.git`
 
-For build using:
-`go build 1.go`
+For start golang app:`make all`
+* For build using: `make build`
+* For run using: `make run`
+
+Go to [http://localhost:8888]()
+

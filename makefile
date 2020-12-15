@@ -3,7 +3,7 @@
 all:
 	@echo "Start build and runnig;"
 	docker build -t goland_build .
-	docker run goland_build
+	docker run -p 8888:8888 goland_build
 
 
 build:
@@ -13,4 +13,5 @@ build:
 
 run:
 	@echo "Start running;"
-	docker run goland_build
+	docker run -p 8888:8888 goland_build
+
