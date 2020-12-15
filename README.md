@@ -5,5 +5,5 @@ For start golang app:`make all`
 * For build using: `make build`
 * For run using: `make run`
 
-Go to [http://localhost:8888]()
+Go to [http://localhost:8888](http://localhost:8888)
 
